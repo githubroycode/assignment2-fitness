@@ -1,0 +1,9 @@
+/* navbar media query */
+@media screen and (max-width: 610px) {
+    .nav-container .menus{
+        display: none;
+    }
+    .bars img{
+        display: block;
+    }
+}
