@@ -1,9 +1,121 @@
 /* navbar media query */
 @media screen and (max-width: 610px) {
-    .nav-container .menus{
+    .menus{
         display: none;
     }
     .bars img{
         display: block;
     }
+}
+/* Header media query */
+@media screen and (max-width: 610px) {
+    .highlight-top{
+        flex-direction: column;
+    }
+    body{
+        max-width: 610px;
+    }
+    .logo-btn{
+        size: 40px;
+        position: relative;
+        left: 10rem;
+    }
+    .highlight-top p{
+        margin-left: -1rem;
+    }
+}
+
+/* Habit section */
+
+@media screen and (max-width: 610px) {
+    .habit-container, .title-description, .img-container{
+        flex-direction: column;
+    }
+    .habit-container{
+        margin-top: 30rem;
+    }
+   
+    .title-description, .img-container{
+        align-items: center;
+        
+    }
+    .img-container .img-dev{
+        margin-top: 60px;
+    }
+    .habit-container p{
+        margin-left: -2px;
+    }
+}
+
+/* Run section */
+
+@media screen and (max-width: 610px) {
+    .run-and-run, .run-bg, .title-dec-btn, .img-run{
+        flex-direction: column;
+    }
+    .run-and-run{
+        margin-top: 45rem;
+    }
+    .img-run img{
+        width: 26rem;
+        height: 17rem;
+        margin-top: 3rem;
+    }
+}
+
+/* BMI calculate section */
+
+@media screen and (max-width: 610px) {
+    .bmi{
+        margin-top: 4rem;
+    }
+    .space-twice{
+        flex-direction: column;
+    }
+}
+
+/* Meet our team section */
+
+@media screen and (max-width: 610px) {
+    .mot-main{
+        margin-top: 4rem;
+    }
+    .mot-title-des, .mot-img-bg, .mot-img-one, .mot-img-two{
+        flex-direction: column;
+    }
+    .mot-img-bg{
+        width: 26rem;
+        height: 105rem;
+    }
+    .mot-hp h4, p{
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .footer-main{
+        margin-top: 68rem;
+        margin-left: 6rem;
+        width: 26rem;
+        height: 60rem
+
+    }
+    .footer-main, .footer-second, .get-start{
+        flex-direction: column;
+    }
+
+    .footer-fitness p{
+        margin-right: 8rem;
+    }
+    .footer-fitness h1{
+        margin-left: 5rem;
+    }
+    .get-start{
+        margin-left: 5rem;
+    }
+
+    .copy-right{
+        margin-left: -6px;
+    }
+   
 }
